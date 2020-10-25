@@ -11,7 +11,7 @@ body {
     display: table-cell;
     vertical-align: middle;
 	color: white;
-	background-color: darkgray;
+	background-color: gray;
 }
 
 h1, h3
@@ -21,7 +21,7 @@ h1, h3
 
 a, .labs-style
 {
-	color: darkblue;
+	color: blue;
 }
 
 dt, strong
