@@ -26,12 +26,12 @@ a, .labs-style
 
 dt, strong
 {
-	color: red;
+	color: yellow;
 }
 
 .neighbors-class
 {
-    font-family: sans-serif;
+    font-family: arial-black;
 }
 
 .profile-class
