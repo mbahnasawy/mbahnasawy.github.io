@@ -81,8 +81,8 @@ console.log("Expected output of maxOfThree(5,4,44) is 44 "+myFunctionTest(44, ()
 console.log("Expected output of maxOfThree(55,4,44) is 55 "+myFunctionTest(55, ()=>maxOfThree( 55,4, 44)));
 
 console.log("\n");
-console.log("Expected output of isVowel(a) is true "+myFunctionTest(true, ()=>isVowel("i")));
-console.log("Expected output of isVowel(k) is false "+myFunctionTest(false, ()=>isVowel("m")));
+console.log("Expected output of isVowel(i) is true "+myFunctionTest(true, ()=>isVowel("i")));
+console.log("Expected output of isVowel(m) is false "+myFunctionTest(false, ()=>isVowel("m")));
 console.log("Expected output of isVowel(u) is true "+myFunctionTest(true, ()=>isVowel("u")));
 
 console.log("\n");
@@ -95,7 +95,7 @@ console.log("Expected output of multiply([5,2,3,1]) is 30 "+myFunctionTest(5, ()
 
 console.log("\n");
 console.log("Expected output of reverse(\"nice\") is ecin "+myFunctionTest("ecin", ()=>reverse("nice")));
-console.log("Expected output of reverse(\"okay\") is yako "+myFunctionTest("il", ()=>reverse("okay")));
+console.log("Expected output of reverse(\"okay\") is yako "+myFunctionTest("yako", ()=>reverse("okay")));
 
 console.log("\n");
 console.log("Expected output of findLongestWord([okay,Moustafa,vowel]) is 8 "+myFunctionTest(8, ()=>findLongestWord("okay","Moustafa","vowel")));
