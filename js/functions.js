@@ -97,7 +97,7 @@ console.log("\n");
 console.log("Expected output of reverse(\"nice\") is ecin "+myFunctionTest("ecin", ()=>reverse("nice")));
 
 console.log("\n");
-console.log("Expected output of findLongestWord([okay,Moustafa,vowel]) is 8 "+myFunctionTest(8, ()=>findLongestWord("okay","Moustafa","vowel")));
+console.log("Expected output of findLongestWord([okay,Moustafa,vowel]) is 5 "+myFunctionTest(5, ()=>findLongestWord("okay","Moustafa","vowel")));
 
 console.log("\n");
 console.log("Expected output of mapExample([5,8,3,1]) is [50,80,30,10] "+myFunctionArrayTest([50,80,30,10], ()=>mapExample(5,8,3,1)));
@@ -106,7 +106,7 @@ console.log("\n");
 console.log("Expected output of filterExample([5,3,8,5,3,22]) is [3,3] "+myFunctionArrayTest([3,3], ()=>filterExample(5,3,8,5,3,22)));
 console.log("\n");
 console.log("Expected output of filterExample([1,5,4,6]) is 120 "+myFunctionTest(120, ()=>reduceExample(1,5,4,6)));
-console.log("Expected output of reduceExample([1,5,4,6]) is 120 "+myFunctionTest(60, ()=>reduceExample(1,5,4,6)));
+
 
 function longestNoSpace(...str){
     return str.filter(word=>word.indexOf(" ")===-1)
