@@ -91,22 +91,19 @@ console.log("Expected output of sum([3,3,3,4]) is 13 "+myFunctionTest(13, ()=>su
 
 console.log("\n");
 console.log("Expected output of multiply([4,8,9,7]) is 2016 "+myFunctionTest(2016, ()=>multiply(4,8,9,7)));
-console.log("Expected output of multiply([5,2,3,1]) is 30 "+myFunctionTest(5, ()=>multiply(5,2,3,1)));
+console.log("Expected output of multiply([5,2,3,1]) is 30 "+myFunctionTest(30, ()=>multiply(5,2,3,1)));
 
 console.log("\n");
 console.log("Expected output of reverse(\"nice\") is ecin "+myFunctionTest("ecin", ()=>reverse("nice")));
-console.log("Expected output of reverse(\"okay\") is yako "+myFunctionTest("yako", ()=>reverse("okay")));
 
 console.log("\n");
 console.log("Expected output of findLongestWord([okay,Moustafa,vowel]) is 8 "+myFunctionTest(8, ()=>findLongestWord("okay","Moustafa","vowel")));
 
 console.log("\n");
 console.log("Expected output of mapExample([5,8,3,1]) is [50,80,30,10] "+myFunctionArrayTest([50,80,30,10], ()=>mapExample(5,8,3,1)));
-console.log("Expected output of mapExample([5,8,3,1]) is [50,80,30] "+myFunctionArrayTest([50,80,30], ()=>mapExample(5,8,3,1)));
 
 console.log("\n");
 console.log("Expected output of filterExample([5,3,8,5,3,22]) is [3,3] "+myFunctionArrayTest([3,3], ()=>filterExample(5,3,8,5,3,22)));
-console.log("Expected output of filterExample([5,3,8,5,3,22]) is [3,3] "+myFunctionArrayTest([3,5,3], ()=>filterExample(5,3,8,5,3,22)));
 console.log("\n");
 console.log("Expected output of filterExample([1,5,4,6]) is 120 "+myFunctionTest(120, ()=>reduceExample(1,5,4,6)));
 console.log("Expected output of reduceExample([1,5,4,6]) is 120 "+myFunctionTest(60, ()=>reduceExample(1,5,4,6)));
