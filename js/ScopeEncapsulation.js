@@ -1,3 +1,4 @@
+"use strict"
 String.prototype.filter=function(...str){
     return this.split(' ').filter((word)=>str.indexOf(word)<0).join(" ");
 };
