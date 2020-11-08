@@ -3,11 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Java script Test fucntions</title>
+    <title>Scope and Encapsulation</title>
     <script src="js/ScopeEncapsulation.js"></script>
+    
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.2.0/mocha.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.2.0/mocha.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chai/3.5.0/chai.js"></script>
+    <script>
+        // initialize mocha
+        mocha.setup('bdd');
+        // chai has a lot of stuff, let's make assert global
+        let assert = chai.assert;
+
+    </script>
+    
 </head>
 <body>
    <h3> Look in the Chrome developer console to see the output. CTRL_SHIFT_J</h3>
+    
+        <div id="mocha"></div>
+    <script>
+        mocha.run();
+
+    </script>
     
          <div>
             <a href="index.html" >Go back to Home Page</a>
