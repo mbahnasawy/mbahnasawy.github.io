@@ -6,7 +6,6 @@ var lastIndx = 1;
 
 
 function formSubmitAction() {
-    $("#circles").empty();
     $("#draw").click(onFormSubmit);
     $('#btnClear').click(clearAll);
     drawCircle(0);
@@ -20,6 +19,7 @@ function clearAll() {
 }
 
 function onFormSubmit() {
+    clearAll();
     for (var i = 0; i < parseInt($("#number-circles").val()); ++i) {
         drawCircle(lastIndx + i);
         circleGrow(lastIndx + i);
