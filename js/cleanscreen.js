@@ -4,7 +4,9 @@ var timers = new Map();
 var growth = new Map();
 var lastIndx = 1;
 
+
 function formSubmitAction() {
+    $("#circles").empty();
     $("#draw").click(onFormSubmit);
     drawCircle(0);
     circleGrow(0);
@@ -61,3 +63,9 @@ function circleGrow(indx) {
         });
     }, parseInt($("#grow-rate").val())));
 }
+
+$('#btnClear').on('click', () => {
+    $("#circles").children().each((i, e) => {
+        $(e).click();
+    });
+});
