@@ -8,8 +8,15 @@ var lastIndx = 1;
 function formSubmitAction() {
     $("#circles").empty();
     $("#draw").click(onFormSubmit);
+    $('#btnClear').click(clearAll);
     drawCircle(0);
     circleGrow(0);
+}
+
+function clearAll() {
+    $("#circles").children().each((i, e) => {
+        $(e).click();
+    });
 }
 
 function onFormSubmit() {
@@ -64,8 +71,3 @@ function circleGrow(indx) {
     }, parseInt($("#grow-rate").val())));
 }
 
-$('#btnClear').on('click', () => {
-    $("#circles").children().each((i, e) => {
-        $(e).click();
-    });
-});
