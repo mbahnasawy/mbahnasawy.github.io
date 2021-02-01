@@ -12,5 +12,9 @@
 }
 
 .post-background {
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
     background-color: turquoise;
 }
